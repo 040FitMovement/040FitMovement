@@ -1,0 +1,30 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Achtergrondbal -->
+  <circle cx="64" cy="64" r="60" fill="white" stroke="#ccc" stroke-width="3"/>
+  <!-- Volleybal lijnen -->
+  <path d="M20 40 C40 20, 88 20, 108 40" stroke="#bbb" stroke-width="3" fill="none"/>
+  <path d="M20 88 C40 108, 88 108, 108 88" stroke="#bbb" stroke-width="3" fill="none"/>
+  <path d="M40 20 C20 40, 20 88, 40 108" stroke="#bbb" stroke-width="3" fill="none"/>
+  <path d="M88 20 C108 40, 108 88, 88 108" stroke="#bbb" stroke-width="3" fill="none"/>
+
+  <!-- Cijfers -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial Black, sans-serif" font-size="48" fill="#2d5a27"
+        style="paint-order: stroke; stroke: white; stroke-width: 4px;">
+    4
+  </text>
+  <text x="30%" y="55%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial Black, sans-serif" font-size="36" fill="#2d5a27"
+        style="paint-order: stroke; stroke: white; stroke-width: 3px;">
+    0
+  </text>
+  <text x="70%" y="55%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial Black, sans-serif" font-size="36" fill="#2d5a27"
+        style="paint-order: stroke; stroke: white; stroke-width: 3px;">
+    0
+  </text>
+
+  <!-- Dunne groene schaduw langs onderrand -->
+  <ellipse cx="64" cy="110" rx="42" ry="4" fill="rgba(45,90,39,0.4)"/>
+</svg>
